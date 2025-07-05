@@ -25,4 +25,12 @@ $(function () {
             clickable: true,
         },
     });
+
+    var swiper2 = new Swiper(".mySwiper2", {
+        pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+        }
+    });
+
 });
