@@ -5,6 +5,10 @@
         width: 100%;
     }
 
+    .inner {
+        max-width: 100%;
+    }
+
     header {
         max-width: 100%;
     }
@@ -34,11 +38,6 @@
 @media all and (max-width:1400px) {
     body {
         width: 100%;
-    }
-
-    .inner {
-        max-width: 100%;
-        padding: 0 20px;
     }
 
     header {
@@ -685,7 +684,7 @@
 
     header .lang {
         position: absolute;
-        right: 150px;
+        right: 100px;
         top: 50%;
         transform: translateY(-50%);
 
@@ -716,7 +715,7 @@
     }
 
     .ir-info .info-price .ir-current>div {
-        gap:0;
+        gap: 0;
     }
 
     .ir-info .info-price .ir-current>div>p {
@@ -729,6 +728,9 @@
         flex-direction: row;
         justify-content: space-between;
         gap: 0
+    }
+    footer {
+        padding: 64px 0 40px;
     }
 
     footer .footer-info ul {
