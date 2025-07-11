@@ -1044,7 +1044,7 @@ footer .privacy p~p::after {
     display: block;
     width: 1px;
     height: 15px;
-    background-color: #fff;
+    background-color: #999;
     position: absolute;
     left: -10px;
     top: 0px;

@@ -675,6 +675,16 @@
         display: none;
     }
 
+    footer .privacy {
+        gap: 10px;
+    }
+
+    footer .privacy p~p::after {
+        height: 12px;
+        left: -5px;
+        top: 1px;
+    }
+
 }
 
 @media all and (max-width: 360px) {
@@ -729,6 +739,7 @@
         justify-content: space-between;
         gap: 0
     }
+
     footer {
         padding: 64px 0 40px;
     }
