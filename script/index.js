@@ -99,7 +99,7 @@ $(function () {
     $('.portfolio .content-right .con1').hover(
         function () {
             $('.bg').css({
-                background: "url(../image/pf_bg1.jpg) center/cover fixed",
+                background: "url(sk/image/pf_bg1.jpg) center/cover fixed",
             }, 800);
         },
         function () {
