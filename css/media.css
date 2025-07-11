@@ -456,11 +456,6 @@
         background: url(../image/ic_profitability3.png) no-repeat 100%/ auto 42px;
     }
 
-    article.ir {
-        padding: 40px 28px;
-        box-sizing: border-box;
-    }
-
     article.ir h2 {
         font-size: 2rem;
         font-weight: 800;
@@ -677,6 +672,10 @@
         height: 42px;
     }
 
+    footer .footer-info ul li~li::after {
+        display: none;
+    }
+
 }
 
 @media all and (max-width: 360px) {
@@ -708,14 +707,40 @@
         line-height: 1.5;
     }
 
+    article.ir .ir-info .info-price {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 33px 20px;
+        box-sizing: border-box;
+    }
+
+    .ir-info .info-price .ir-current>div {
+        gap:0;
+    }
+
+    .ir-info .info-price .ir-current>div>p {
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+    .ir-info .info-price .ir-current {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0
+    }
+
     footer .footer-info ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 4px;
-
     }
 
     footer .footer-info ul li~li::after {
         display: none;
     }
+
+
+}
