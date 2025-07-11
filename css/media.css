@@ -203,6 +203,8 @@
         flex-direction: column;
         justify-content: center;
         position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
     article.portfolio-tablet .title {
