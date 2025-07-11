@@ -99,7 +99,7 @@ $(function () {
     $('.portfolio .content-right .con1').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg1.jpg) center/cover fixed",
+                background: "url(../image/pf_bg1.jpg) center/cover fixed",
             }, 800);
         },
         function () {
@@ -110,7 +110,7 @@ $(function () {
     $('.portfolio .content-right .con2').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg2.jpg) center/cover fixed"
+                background: "url(../image/pf_bg2.jpg) center/cover fixed"
             });
         },
         function () {
@@ -120,7 +120,7 @@ $(function () {
     $('.portfolio .content-right .con3').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg3.jpg) center/cover fixed"
+                background: "url(../image/pf_bg3.jpg) center/cover fixed"
             });
         },
         function () {
@@ -130,7 +130,7 @@ $(function () {
     $('.portfolio .content-right .con4').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg4.jpg) center/cover fixed"
+                background: "url(../image/pf_bg4.jpg) center/cover fixed"
             });
         },
         function () {
@@ -140,7 +140,7 @@ $(function () {
     $('.portfolio .content-right .con5').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg5.jpg) center/cover fixed"
+                background: "url(../image/pf_bg5.jpg) center/cover fixed"
             });
         },
         function () {
@@ -150,7 +150,7 @@ $(function () {
     $('.portfolio .content-right .con6').hover(
         function () {
             $('.bg').css({
-                background: "url(/sk/image/pf_bg6.jpg) center/cover fixed"
+                background: "url(../image/pf_bg6.jpg) center/cover fixed"
             });
         },
         function () {
