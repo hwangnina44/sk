@@ -557,7 +557,7 @@
 
     footer .footer-logo {
         position: absolute;
-        left: 28px;
+        left:6%;
         top: 10px;
     }
 
@@ -671,12 +671,17 @@
         height: 42px;
     }
 
+    footer .footer-logo a {
+        width:70px;
+    }
+
     footer .footer-info ul li~li::after {
         display: none;
     }
 
     footer .privacy {
         gap: 10px;
+        top: 37px;
     }
 
     footer .privacy p~p::after {
