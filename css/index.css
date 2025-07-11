@@ -45,8 +45,6 @@ body {
     font-family: 'Pretendard';
     font-weight: 400;
     box-sizing: border-box;
-    overflow-x: hidden;
-
     /* 스와이퍼 */
     position: relative;
 }
