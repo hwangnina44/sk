@@ -19,14 +19,14 @@ $(function () {
         if (scrollTop > 250) {
             headerActive();
         }
-
+ 
         if(skreit>=(scrollTop-400)) {
             $('.skreit .title-des, .skreit .des-wrap').animate({
                 marginLeft : 0,
                 marginRight:0
             },1000);
         }
-
+ 
         if (scrollTop > 800) {
             $(".scroll-top").show();
         } else {
