@@ -122,10 +122,6 @@
     article.skreit .title .title-des {
         padding: 0px 20px;
         box-sizing: border-box;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translate(0%, -50%);
     }
 
     article.skreit .title h2 {
@@ -149,8 +145,6 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 0;
-
-
         background-color: #000;
         color: #fff;
     }
@@ -632,8 +626,6 @@
     }
 }
 
-
-
 @media all and (max-width: 768px) {
     body {
         width: 100%;
@@ -666,10 +658,6 @@
         box-sizing: border-box;
 
         margin-left: 0;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translate(0%, -50%);
     }
 
     .skreit .des-box .des .img-box {
