@@ -8,25 +8,27 @@ $(function () {
 
     function headerDefault() {
         $("header").removeClass('active');
-        $('.logo img').attr('src', `${baseUrl}image/logo_w.png`);
+        $('.logo img').attr('src', `${baseUrl}image/logo.png`);
     }
 
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         console.log(scrollTop);
-         var skreit = $(".skreit").offset().top;
-         console.log(scrollTop,skreit);
+        var skreit = $(".skreit").offset().top;
+        console.log(scrollTop, skreit);
         if (scrollTop > 250) {
             headerActive();
+        } else {
+            headerDefault();
         }
- 
-        if(skreit>=(scrollTop-400)) {
+
+        if (skreit >= (scrollTop - 400)) {
             $('.skreit .title-des, .skreit .des-wrap').animate({
-                marginLeft : 0,
-                marginRight:0
-            },1000);
+                marginLeft: 0,
+                marginRight: 0
+            }, 1000);
         }
- 
+
         if (scrollTop > 800) {
             $(".scroll-top").show();
         } else {
@@ -36,8 +38,8 @@ $(function () {
         if (scrollTop >= 4310) {
             $(".feature nav").css({ position: "fixed" });
             $("header").fadeOut();
-        } else{ $("header").fadeIn();}
-        
+        } else { $("header").fadeIn(); }
+
     });
 
     $('header').hover(
@@ -140,6 +142,10 @@ $(function () {
         },
     });
 
+
+});
+
+document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".myswiper2", {
         loop: true,
         spaceBetween: 20,
@@ -148,7 +154,7 @@ $(function () {
             el: ".pagination2",
             type: "progressbar",
         },
-        autoplay: { delay: 3000 },
+        autoplay: { delay: 2000 },
     });
 
     new Swiper(".myswiper3", {
@@ -159,7 +165,7 @@ $(function () {
             el: ".pagination3",
             type: "progressbar",
         },
-        autoplay: { delay: 3000 },
+        autoplay: { delay: 2000 },
     });
 
     new Swiper(".myswiper4", {
@@ -170,6 +176,6 @@ $(function () {
             el: ".pagination4",
             type: "progressbar",
         },
-        autoplay: { delay: 3000 },
+        autoplay: { delay: 2000 },
     });
 });

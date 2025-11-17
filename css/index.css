@@ -101,7 +101,6 @@ header.active {
 }
 
 /* ****menu******************************************************* */
-header nav {}
 
 header nav .menu {
     height: 100px;
@@ -293,7 +292,8 @@ article.skreit {
 article.skreit .title {
     width: 50%;
     height: 100%;
-    background: url(../image/intro_bg_m.jpg) center no-repeat;
+    background: url(../image/intro_bg_m.jpg) no-repeat;
+    background-size: cover;
 
     color: #fff;
     position: relative;
